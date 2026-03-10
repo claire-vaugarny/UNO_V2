@@ -9,8 +9,6 @@ public class EffetPlusQuatre implements Effet {
 
         System.out.println("Le joueur suivant devra piocher 4 cartes.");
         partie.setCartesAPiocher(4);
-
-        choisirNouvelleCouleur(partie);
     }
 
     private void choisirNouvelleCouleur(Partie partie) {
